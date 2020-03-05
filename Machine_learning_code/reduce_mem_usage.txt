@@ -24,7 +24,7 @@ def reduce_mem_usage(props):
             asint = props[col].fillna(0).astype(np.int64)
             result = (props[col] - asint)
             result = result.sum()
-            if result > 0.01:
+            if result < 0.01:
                 IsInt = True
 
             
