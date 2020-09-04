@@ -1,3 +1,3 @@
 # Kaggle study
 
-kaggle dataset을 다룬 것들 정리
+https://www.kaggle.com/rbud613
